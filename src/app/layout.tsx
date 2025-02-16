@@ -8,10 +8,7 @@ import { ThemeProvider } from "./components/ThemeProvider"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
-  title: "The Raeburn Group",
-  description: "Empowering Innovation Across Industries",
-}
+import { metadata } from "./metadata";
 
 export default function RootLayout({
   children,
